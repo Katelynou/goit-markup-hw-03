@@ -155,12 +155,31 @@ img {
     color: white;
 }
 
+.value-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.value-list {
+    display: flex;
+    gap: 24px;
+}
+
+.value-list-p {
+    width: calc((100% - 72px) / 4);
+}
+
 .value-header {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.hidden-header {
+    visibility: hidden;
 }
 
 .value-paragraph {
@@ -170,6 +189,8 @@ img {
 
 .section-team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-header {
@@ -180,10 +201,22 @@ img {
     line-height: 1.11;
     font-weight: 700;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-card{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-text {
+    padding: 32px 0;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-card-header {
@@ -192,12 +225,20 @@ img {
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-card-paragraph {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-size: 16px;
+    text-align: center;
+}
+
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-header {
@@ -208,6 +249,23 @@ img {
     line-height: 1.11;
     font-weight: 700;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-card {
+    width: calc((100% - 48px) / 3);
+    
+}
+.portfolio-card-text {
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    padding: 32px 16px;
 }
 
 .portfolio-card-header {
@@ -216,6 +274,7 @@ img {
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    margin-bottom: 8px;
 }
 
 .portfolio-card-paragraph {
@@ -226,14 +285,31 @@ img {
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .page-logo-accent-second {
     color: #F4F4FD;
 }
 
+.page-logo-footer {
+    text-transform: uppercase;
+    font-family: "Raleway",
+        sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #4D5AE5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-right: 76px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
 .footer-paragraph {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    max-width: 264px;
+    
 }
