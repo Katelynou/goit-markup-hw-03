@@ -30,15 +30,18 @@ img {
     display: block;
 }
 
-.container {
-    max-width: 1440px;
+.header-1 {
+    display: flex;
+}
+.header-1.container {
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 156px;
     margin-right: 156px;
-    width: 1158px;
     margin: 0 auto;
 }
+
 
 
 .page-logo {
@@ -53,9 +56,6 @@ img {
     margin-right: 76px;
     
 }
-.header {
-    display: flex;
-}
 
 .page-logo-accent-first {
     color: #2E2F42;
@@ -63,13 +63,12 @@ img {
 
 .page-nav {
     display: flex;
-    align-items: center;
+    
 }
 
 .nav-links {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .page-address {
@@ -80,6 +79,7 @@ img {
 
 .page-header {
     display: flex;
+    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -90,7 +90,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-  
+    padding: 24px 0;
 }
 
 .nav-links .nav-links-main:hover,
